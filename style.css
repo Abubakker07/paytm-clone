@@ -1,0 +1,678 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* navbar styles started */
+  
+  .navbar {
+    width: 1920px;
+    height: 92px;
+    padding: 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 6px rgba(157, 157, 157, 0.2);
+    position: fixed;
+    top: 0;
+    background: #fff;
+  }
+
+  .plogo{
+    margin-left: 70px;
+    padding-right: 30px;
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    width: 1019px;
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navbar ul li a {
+    padding-right: 0px;
+    margin-right: 42.8px;
+    margin-top: 4px;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    transform: scale(1.05);
+    border-radius: 5px;
+  }
+  
+  .navbar .signUp-btn {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color: #002970;
+    color: white;
+    font-weight: 400;
+    padding: 5px 2px 2px 4px;
+    margin-right: 50px;
+    text-decoration: none;
+    border-radius: 24px;
+  }
+  
+  .navbar .signUp-btn p {
+    padding-right: 18px;
+    padding-bottom: 0.7px;
+    font-size: 19px;
+  }
+  
+  .navbar .signUp-btn span {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+  }
+
+  /* Paytm travel section */
+  
+  .travel-section {
+    margin-top: 69px;
+    padding: 50px 16px;
+    padding-bottom: 10px;
+    background-color: #e4f4fc;
+  }
+  
+  .travel-nav {
+    width: 1430px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .paytmTravelIcon {
+    height: 50px;
+    width: 150px;
+    padding-bottom: 8px;
+  }
+  
+  .travel-nav .travel-links {
+    display: flex;
+  }
+  
+  .travel-nav .travel-links a {
+    margin-right: 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+  }
+  
+  .travel-links a:first-child {
+    border-bottom: 2px solid #53b8ec;
+  }
+  
+  .flight-search-container {
+    width: 1430px;
+    height: 226px;
+    margin-top: 10px;
+    padding: 24px 36px;
+    background-color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    border: 1px solid #d3d3d3;
+  }
+  
+  .flight-search-container div ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  .flight-search-container div ul li {
+    margin-right: 46px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .flight-search-container div ul li label {
+    font-weight: 500;
+    font-size: 16.5px;
+  }
+  
+  .custom-radio {
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    border: 2px solid gray;
+    appearance: none;
+  }
+  
+  .custom-radio:checked {
+    width: 12px;
+    height: 12px;
+    border: none;
+    background-color: #00b9f5;
+    outline: 2px solid #00b9f5;
+    outline-offset: 2px;
+  }
+  
+  .travel-info-container {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .travel-info-block {
+    display: inline;
+  }
+  
+  .travel-info-block p:first-child {
+    font-size: 15px;
+    color: #878787;
+    font-weight: 400;
+  }
+  
+  .travel-info-block p {
+    color: #3f3f3f;
+    font-size: 12px;
+  }
+  
+  .travel-info-block h3 {
+    padding: 4px 0px;
+    padding-bottom: 0px;
+    margin-right: 75px;
+    font-weight: 600;
+  }
+  
+  .travel-info-block .line {
+    margin-top: 20px;
+    height: 2px;
+    width: 200px;
+    background: rgb(207, 206, 206);
+  }
+  
+  .travel-info-block:nth-child(5) h3 {
+    color: black;
+  }
+  
+  .flight-search-container .travel-info-container button {
+    background-color: #00baf2;
+    padding: 0 24px;
+    margin-bottom: 23px;
+    width: 178px;
+    height: 59px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .flight-search-container .travel-info-container button:hover{
+    background-color: #002970;
+    transform: scale(1.05);
+  }
+
+  
+  .ticket-offers-container {
+    width: 1288px;
+    display: flex;
+    margin: 50px 0px 50px 420px;
+  }
+  
+  .ticket-offers-container img {
+    width: 498px;
+    height: 165px;
+    border-radius: 14px;
+    margin-right: 30px;
+  }
+  
+  .special-fares-container {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .special-fares-container p {
+    font-size: 16px;
+    padding-right: 12px;
+    color: #7d7d7d;
+  }
+
+  .special-fares-container img{
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+  }
+
+  .special-fares-container button{
+    border-radius: 10px;
+    border: 1px solid rgb(167, 164, 164);
+    height: 50px;
+    width: 130px;
+    color: black;  
+    font-weight: 600;
+    background-color: white;
+    font-size: 15.7px;
+    margin-right: 15px;
+  }
+  
+/* Recharges & Bill payments section */
+
+.main-container {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  background-color: #f7f9fc;
+}
+
+.card {
+  background: white;
+  padding: 45px;
+  border-radius: 16px;
+  width: 700px;
+  height: 369px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+  margin-bottom: 30px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.service {
+  font-weight: 600;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 110px;
+  text-align: center;
+}
+
+.service img {
+  width: 69px;
+  height: 69px;
+  margin-bottom: 5px;
+}
+
+.service:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/*payment-successful*/
+
+.out-cont{
+  background-color: #f7f9fc;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 90px;
+  padding-bottom: 69px;
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.logo {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.app-buttons img {
+  height: 50px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.app-buttons img:hover {
+  transform: scale(1.05);
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  width: 600px;
+}
+
+/*Paytm money*/
+
+.out2-cont{
+  margin-top: 40px;
+  background-color: white;
+}
+
+.paytm-mon {
+  background-color: #f7f9fc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 90px;
+  padding-bottom: 69px;
+  max-width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.left {
+  flex: 1;
+}
+
+.logo2 {
+  height: 70px;
+  margin-bottom: 30px;
+}
+
+.left h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.left p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.lmore{
+  height: 45px;
+  width: 155px;
+  display: flex;
+  align-items: center;
+  background-color: #002970;
+  text-decoration: none;
+  border-radius: 60px;
+}
+
+.lmore p {
+    padding-top: 31px;
+    padding-left: 17px;
+    padding-bottom: 0.7px;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .lmore:hover {
+  background: #1e2b5b;
+  color: white;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right img {
+  width: 600px;
+}
+
+/* Support Banner */
+
+.support-banner {
+  display: flex;
+  align-items: center;
+  background-color: #1e2b5b;
+  color: white;
+  border-radius: 20px;
+  padding: 17px 20px;
+  max-width: 1435px;
+  margin: 50px auto;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.rlogo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-bottom: 0px;
+}
+
+.support-text {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+}
+
+.learn-more {
+  height: 40px;
+  width: 155px;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.learn-more:hover {
+  background: white;
+  color: #1e2b5b;
+}
+
+/* Cred Card & Insurance */
+
+.bank-offer-container {
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px 232px 20px 232px;
+
+  }
+  
+  .bank-offer-card {
+    width: 701px;
+    height: 900px;
+    padding: 40px 64px 0px 64px;
+    background: #fff;
+    border-radius: 16px;
+    cursor: pointer;
+
+  }
+  
+  .bank-offer-card img:first-child {
+    width: 196px;
+    margin-top: 10px;
+  }
+  
+  .bank-offer-card h2 {
+    padding-top: 28px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+  }
+  
+  .bank-offer-card .description p:first-child {
+    margin: 25px 0 25px;
+    font-size: 23px;
+    line-height: 120%;
+    font-weight: 500;
+  }
+  
+.apply-now {
+  height: 40px;
+  width: 155px;
+  background: none;
+  color: #1e2b5b;
+  border: 1px solid #1e2b5b;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 4px;
+}
+
+/* Footer */
+
+footer {
+    padding: 90px 0 69px 0;
+  }
+  
+  footer .container2 {
+    width: 1460px;
+    margin: 0 auto;
+  }
+
+footer .container2 > .line {
+    height: 1px;
+    width: 100%;
+    background: #cccccc;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+footer .footer-links .link {
+    display: flex;
+    align-items: baseline;
+    column-gap: 8px;
+    padding: 15px 0;
+  }
+  
+  footer .footer-links .wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  footer .footer-links .link .line {
+    height: 1.3px;
+    background: #ccc;
+  }
+  
+  footer .footer-links .wrapper img {
+    cursor: pointer;
+  }
+  
+  footer .footer-links p {
+    color: #707070;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 750;
+  }
+  
+  .blue-border {
+    height: 15.5px;
+    background-color: #00baf2;
+  }
+  
+  .dark-blue-border {
+    height: 15.5px;
+    background-color: #002970;
+  }
+
+  .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding-top: 50px;
+  font-size: 19px;
+}
+
+.footer-bottom .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-bottom .social img {
+  height: 32px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 5%;
+  }
+  .navbar ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  .signUp-btn {
+    width: 100%;
+    justify-content: center;
+  }
+  .travel-section, .flight-search-container {
+    width: 100%;
+    padding: 10px 5%;
+  }
+  .travel-nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .travel-links a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .payment-services-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .payment-service-card {
+    width: 100%;
+    padding: 15px;
+  }
+  .booking-section {
+    padding: 40px 5%;
+    text-align: center;
+  }
+  .booking-card-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .booking-card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  .booking-section img, .payment-service-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}

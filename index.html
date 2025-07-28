@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Paytm: Secure & Fast UPI Payments, Recharge Mobile & Pay Bills
+    </title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="imgs/favicon.ico" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+    <div class="plogo">
+        <img src="imgs/logo_new.svg" alt="paytm logo" />
+    </div>
+      <ul>
+        <li><a href="#">Ticket Booking ▼</a></li>
+        <li><a href="#">Recharge & Bills ▼</a></li>
+        <li><a href="#">Payments & Services ▼</a></li>
+        <li><a href="#">Paytm for Business ▼</a></li>
+        <li><a href="#">Company ▼</a></li>
+      </ul>
+      <a class="downloadapp" href="#" style="text-decoration: none;">
+        <img src="imgs/downloadApp.svg" alt="Download App">
+        <p style="color: #002970; 
+        font-weight: bold; 
+        margin-top: 4px;
+        margin-left:10px; 
+        margin-right: 20px;
+        font-size: 18px;">Download App</p>
+      </a>
+      <a class="signUp-btn" href="#">
+        <span
+          ><img
+            src="imgs/logoutImg.svg"
+            alt="user icon" />
+        </span>
+            <p>Sign In</p> </a>
+    </nav>
+
+<!-- travel section -->
+    <section class="travel-section">
+      <div class="travel-nav">
+        <div class="travel-links">
+          <a href="#"
+            ><img
+              src="imgs/plane-icon.svg"
+              alt="flight icon"
+            /><span>Flights</span></a
+          >
+          <a href="#"
+            ><img
+              src="imgs/bus-icon.svg"
+              alt="bus icon"
+            /><span>Bus</span></a
+          >
+          <a href="#"
+            ><img
+              src="imgs/train-icon.svg"
+              alt="train icon"
+            /><span>Trains</span></a
+          >
+          <a href="#"
+            ><img
+              src="imgs/intplane-icon.svg  "
+              alt="internation flight icon"
+            /><span>Intl. Flights</span></a
+          >
+        </div>
+        <img
+          class="paytmTravelIcon"
+          src="imgs/Paytm_Travel_Logo.svg"
+          alt="paytm travel logo"
+        />
+      </div>
+      <div class="flight-search-container">
+        <div>
+          <ul>
+            <li>
+              <input
+                class="custom-radio"
+                type="radio"
+                id="oneWay"
+                name="travel"
+                checked
+              />
+              <label for="oneWay">One Way</label>
+            </li>
+            <li>
+              <input
+                class="custom-radio"
+                type="radio"
+                id="roundTrip"
+                name="travel"
+              />
+              <label for="roundTrip">Round Trip</label>
+            </li>
+          </ul>
+        </div>
+        <div class="travel-info-container">
+          <div class="travel-info-block">
+            <p>From</p>
+            <h3>Delhi (DEL)</h3>
+            <div class="line"></div>
+          </div>
+          <div class="arr">
+            <img
+              src="imgs/twoarr.png"
+              alt="two side arrows"
+              style="width: 34px; height: 34px; margin-top: 2px; margin-left: 10px;"
+            />
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <p>To</p>
+            <h3>Mumbai (BOM)</h3>
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <p>Depart</p>
+            <h3>Tue, 15 Jul 25</h3>
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <p>Return</p>
+            <h3 style="color: #00baf2;;">Add Return</h3>
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <p>Passenger & Class</p>
+            <h3>1 Traveller, Economy</h3>
+            <div class="line"></div>
+          </div>
+          <button>Search Flights</button>
+        </div>
+        <div class="special-fares-container">
+          <p>Special Fares (optional)<br><img src="imgs/rupee.png" alt="extra savings">
+          <span style="color: #27ae60;font-weight: 500">Extra Savings</span></p>
+          <div class="buttons-wrapper">
+            <button>Armed Forces<br><p style="font-size: 13px;">Up to ₹600 off</p></button>
+            <button>Student<br><p style="font-size: 13px;">Extra Baggage</p></button>
+            <button>Senior Citizen<br><p style="font-size: 13px;">Up to ₹600 off</p></button>
+          </div>
+        </div>
+      </div>
+      <div class="ticket-offers-container">
+        <img src="imgs/1img.avif" alt="offer 1" />
+        <img src="imgs/2img.avif" alt="offer 2" />
+      </div>
+    </section>
+
+<!-- Recharges and Bill payments section -->
+
+<div class="main-container">
+  <!-- Recharges Card -->
+  <div class="card">
+    <h2>Recharges</h2>
+    <div class="services">
+      <div class="service">
+        <img src="imgs/mobrech.avif" alt="Mobile Recharge">
+        <p>Mobile Recharge</p>
+      </div>
+      <div class="service">
+        <img src="imgs/fastagrech.avif" alt="FASTag Recharge">
+        <p>FASTag Recharge</p>
+      </div>
+      <div class="service">
+        <img src="imgs/dthrech.png" alt="DTH Recharge">
+        <p>DTH<br>Recharge</p>
+      </div>
+      <div class="service">
+        <img src="imgs/viewall.avif" alt="View All">
+        <p>View All Products</p>
+      </div>
+    </div>
+    <div class="promo">
+      <img src="imgs/takeit.avif" alt="Mobile Icon" style="width: 650px; height: 75px; padding-right: 50px;">
+    </div>
+  </div>
+  <div class="card">
+    <h2>Bill Payments</h2>
+    <div class="services">
+      <div class="service">
+        <img src="imgs/ebill.avif" alt="Electricity Bill">
+        <p>Electricity<br>Bill</p>
+      </div>
+      <div class="service">
+        <img src="imgs/lic.png" alt="Insurance">
+        <p>LIC / Insurance</p>
+      </div>
+      <div class="service">
+        <img src="imgs/loan.avif" alt="Loan EMI Payment">
+        <p>Loan EMI Payment</p>
+      </div>
+      <div class="service">
+        <img src="imgs/viewall.avif" alt="View All">
+        <p>View All Products</p>
+      </div>
+    </div>
+    <div class="promo">
+      <img src="imgs/broadbr.avif" alt="Broadband Icon" style="width: 650px; height: 75px; padding-right: 50px;">
+    </div>
+  </div>
+</div>
+
+<div class="out-cont">
+ <div class="container">
+    <div class="left">
+      <img src="imgs/logo_new.svg" alt="Paytm UPI Logo" class="logo">
+      <h1 style="font-size: 56px;">Pay anyone directly<br>from your bank account.</h1>
+      <p style="font-weight: 600; font-size: 20px;">
+        Pay anyone, everywhere. Make contactless & secure payments in-stores or online using Paytm UPI or 
+        Directly from your Bank Account. Plus, send & receive money from anyone.
+      </p>
+      <div class="app-buttons">
+        <img src="imgs/appstoredown.avif" alt="App Store">
+        <img src="imgs/gpdown.avif" alt="Google Play">
+      </div>
+    </div>
+    <div class="right">
+      <img src="imgs/rightsideimg.avif" alt="Payment Successful">
+    </div>
+  </div>
+</div>
+
+<div class="out2-cont">
+ <div class="paytm-mon">
+    <div class="left">
+      <img src="imgs/pmlogo.webp" alt="Paytm money" class="logo2">
+      <h1 style="font-size: 56px;">Build Long-term<br>Wealth & Achieve your<br>Goals.</h1>
+      <p style="font-weight: 600; font-size: 20px;">
+        Investing on Paytm Money is transparent, low-cost and commission-free. 
+        Buy stocks & mutual funds that can help you create wealth & realise your dreams.
+      </p>
+      <div class="learn-more">
+        <a class="lmore" href="#">
+        <span><p>Learn More →</p></span>
+          </a>
+      </div>
+    </div>
+    <div class="right">
+      <img src="imgs/paytm-moneyy.avif" alt="paytm moneyy">
+    </div>
+  </div>
+</div>
+
+<!-- Support Banner -->
+
+<div class="support-banner">
+  <img src="imgs/roundpaytmlogo.png" alt="Paytm UPI" class="rlogo">
+  <p class="support-text">
+    24x7 Trusted customer support to assist and help you in every step of your journey
+  </p>
+  <button class="learn-more">Learn More →</button>
+</div>
+
+<!-- Credit Card & Insurance -->
+
+ <div class="bank-offer-container">
+        <div class="bank-offer-card">
+          <img
+            src="imgs/credcard.png"
+            alt="hdfc bank icon"
+          />
+          <h2>One destination for Credit Cards</h2>
+          <div class="description">
+            <p>
+              Paytm HDFC, SBI Card & Axis Bank Credit Card with assured Cashback 
+              and incredible offers.
+            </p>
+            <div style="display:flex; margin-bottom: 40px;"><button class="apply-now">Apply Now →</button>
+            <img
+            src="imgs/sbicard.avif"
+            alt="card 1"
+            style="width: 300px; margin: 0px 0px 0px 10px;"
+          /></div>
+          </div>
+          <img src="imgs/creditcards.avif" alt="credit cards" style="width: 500px; height: 400px;">
+        </div>
+        <div class="bank-offer-card">
+          <img
+            src="imgs/insurbrok.png"
+            alt="hdfc bank icon"
+          />
+          <h2>Insurance made easy.</h2>
+          <div class="imgs/description">
+            <p>
+              Buying insurance does not have to be tedious, time-consuming & confusing. 
+              Paytm Insurance removes the worry of getting insured by making it simple, 
+              convenient & easy-to-understand.
+            </p>
+            <div style="display:flex; margin-bottom: 40px;"><button class="apply-now">Get it Now →</button></div>
+          </div>
+          <img src="imgs/broking.avif" alt="credit cards" style="width: 500px; height: 400px;">
+        </div>
+      </div>
+
+<div class="out2-cont">
+ <div class="paytm-mon">
+    <div class="left">
+      <img src="imgs/paytmbus.png" alt="Paytm business" class="logo2">
+      <h1 style="font-size: 56px;">Accept payments online & offline</h1>
+      <p style="font-weight: 600; font-size: 20px;">
+        Millions of small & big businesses use Paytm to accept payments anywhere 
+        any time with a wide range of solutions for all kind of merchants
+      </p>
+      <div class="learn-more">
+        <a class="lmore" href="#">
+        <span><p>Learn More →</p></span>
+          </a>
+      </div>
+    </div>
+    <div class="right">
+      <img src="imgs/paytmqr.avif" alt="paytm qr">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+ <footer>
+      <div class="container2">
+        <div class="footer-links">
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Investor Relations</p>
+            </div>
+            <div class="line" style="width: 1255px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>More about Paytm</p>
+            </div>
+            <div class="line" style="width: 1252px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Company</p>
+            </div>
+            <div class="line" style="width: 1328px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <p>Career</p>
+            </div>
+            <div class="line" style="width: 1380px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Recharge & pay bills</p>
+            </div>
+            <div class="line" style="width: 1240px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Pay Loan EMI, Insurance Premiums & Education Fee</p>
+            </div>
+            <div class="line" style="width: 970px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Book Travel & Entertainment</p>
+            </div>
+            <div class="line" style="width: 1172px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Investments & Miscellaneous</p>
+            </div>
+            <div class="line" style="width: 1165px;"></div>
+          </div>
+          <div class="link">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Loans and Credit Cards</p>
+            </div>
+            <div class="line" style="width: 1220px;"></div>
+          </div>
+          <div class="link" style="padding-bottom: 70px;">
+            <div class="wrapper">
+              <img src="imgs/add.png" alt="add icon" />
+              <p>Financial Tools & Calculators</p>
+            </div>
+            <div class="line" style="width: 1173px;"></div>
+          </div>
+          <div class="footer-bottom">
+              <p style="font-weight: 500;">© 2025 Paytm</p>
+               <div class="social">
+               <span style="color: #707070;">Follow Us</span>
+               <img src="imgs/facebooki.svg" alt="Social Icons" />
+               <img src="imgs/xi.svg" alt="Social Icons" />
+               <img src="imgs/yti.svg" alt="Social Icons" />
+               <img src="imgs/ini.svg" alt="Social Icons" />
+               <img src="imgs/instagrami.svg" alt="Social Icons" />
+               </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="blue-border"></div>
+    <div class="dark-blue-border"></div>
+  </body>
+</html>

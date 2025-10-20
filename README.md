@@ -57,9 +57,8 @@ To get a local copy up and running, simply follow these steps.
 
 **Mohammed Abubakker Siddiqui**
 
--   **LinkedIn:** [your-linkedin-profile](https://www.linkedin.com/in/your-profile-url)
--   **GitHub:** [@your-username](https://github.com/your-username)
--   **Email:** your.email@example.com
+-   **LinkedIn:** [your-linkedin-profile](https://www.linkedin.com/in/md-abubakker-siddiqui/)
+-   **Email:** your.mh.abubakker7@gmail.com
 
 ---
 

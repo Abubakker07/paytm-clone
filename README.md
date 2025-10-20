@@ -2,7 +2,7 @@
 
 A pixel-perfect front-end clone of the Paytm website as it appeared in June-July 2025. This project was developed as an internship assignment and is built entirely with **HTML5** and **CSS3** to replicate the user interface and layout of the platform.
 
-![Paytm Clone Screenshot](image.jpg)
+![Paytm Clone Screenshot](paytm-ss.png)
 
 ---
 

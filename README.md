@@ -57,7 +57,7 @@ To get a local copy up and running, simply follow these steps.
 
 **Mohammed Abubakker Siddiqui**
 
--   **LinkedIn:** (https://www.linkedin.com/in/md-abubakker-siddiqui/)
+-   **LinkedIn:** https://www.linkedin.com/in/md-abubakker-siddiqui/
 -   **Email:** mh.abubakker7@gmail.com
 
 ---
@@ -66,5 +66,3 @@ To get a local copy up and running, simply follow these steps.
 
 *   Special thanks to the mentorship team at GyaanKool Research Labs for the opportunity and guidance during the internship.
 *   The project is inspired by the excellent design and user experience of the official Paytm website.
-
-```
